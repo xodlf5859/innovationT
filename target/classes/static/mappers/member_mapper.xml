@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.innovationT.member.dao.MemberMapper">
+	
+	<resultMap id="member" type="com.innovationT.member.vo.MemberVO">
+		<result property="mem_num" column="mem_num"/>
+		<result property="mem_name" column="mem_name"/>
+		<result property="mem_id" column="mem_id"/>
+		<result property="mem_pw" column="mem_pw"/>
+		<result property="mem_email" column="mem_email"/>
+		<result property="mem_phone" column="mem_phone"/>
+		<result property="mem_role" column="mem_role"/>
+		<result property="mem_status" column="mem_status"/>
+	</resultMap>
+	
+<!-- 	회원 전체 검색 -->
+	<select id="selectMember" resultMap="member" parameterType="com.innovationT.member.vo.MemberVO">
+		select *
+		from member
+	</select>
+	
+	
+</mapper>
