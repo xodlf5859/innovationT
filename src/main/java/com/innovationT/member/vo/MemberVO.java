@@ -2,63 +2,61 @@ package com.innovationT.member.vo;
 
 public class MemberVO {
 
-	public int mem_num;
-	public String mem_name;
-	public String mem_id;
-	public String mem_pw;
-	public String mem_email;
-	public String mem_phone;
-	public String mem_role;
-	public String mem_status;
-	
-	
-	public int getMem_num() {
-		return mem_num;
+	public int memNum;
+	public String memName;
+	public String memId;
+	public String memPw;
+	public String memEmail;
+	public String memPhone;
+	public String memRole;
+	public String memStatus;
+	public int getMemNum() {
+		return memNum;
 	}
-	public void setMem_num(int mem_num) {
-		this.mem_num = mem_num;
+	public void setMemNum(int memNum) {
+		this.memNum = memNum;
 	}
-	public String getMem_name() {
-		return mem_name;
+	public String getMemName() {
+		return memName;
 	}
-	public void setMem_name(String mem_name) {
-		this.mem_name = mem_name;
+	public void setMemName(String memName) {
+		this.memName = memName;
 	}
-	public String getMem_id() {
-		return mem_id;
+	public String getMemId() {
+		return memId;
 	}
-	public void setMem_id(String mem_id) {
-		this.mem_id = mem_id;
+	public void setMemId(String memId) {
+		this.memId = memId;
 	}
-	public String getMem_pw() {
-		return mem_pw;
+	public String getMemPw() {
+		return memPw;
 	}
-	public void setMem_pw(String mem_pw) {
-		this.mem_pw = mem_pw;
+	public void setMemPw(String memPw) {
+		this.memPw = memPw;
 	}
-	public String getMem_email() {
-		return mem_email;
+	public String getMemEmail() {
+		return memEmail;
 	}
-	public void setMem_email(String mem_email) {
-		this.mem_email = mem_email;
+	public void setMemEmail(String memEmail) {
+		this.memEmail = memEmail;
 	}
-	public String getMem_phone() {
-		return mem_phone;
+	public String getMemPhone() {
+		return memPhone;
 	}
-	public void setMem_phone(String mem_phone) {
-		this.mem_phone = mem_phone;
+	public void setMemPhone(String memPhone) {
+		this.memPhone = memPhone;
 	}
-	public String getMem_role() {
-		return mem_role;
+	public String getMemRole() {
+		return memRole;
 	}
-	public void setMem_role(String mem_role) {
-		this.mem_role = mem_role;
+	public void setMemRole(String memRole) {
+		this.memRole = memRole;
 	}
-	public String getMem_status() {
-		return mem_status;
+	public String getMemStatus() {
+		return memStatus;
 	}
-	public void setMem_status(String mem_status) {
-		this.mem_status = mem_status;
+	public void setMemStatus(String memStatus) {
+		this.memStatus = memStatus;
 	}
 	
 	

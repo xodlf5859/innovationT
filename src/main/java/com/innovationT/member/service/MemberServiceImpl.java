@@ -1,5 +1,7 @@
 package com.innovationT.member.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,8 +15,10 @@ public class MemberServiceImpl implements MemberService{
 	MemberMapper memberDAO;
 
 	//회원검색
+	
 	@Override
-	public MemberVO selectMember(MemberVO memberVO) throws Exception {
+	public List<MemberVO> selectMember(MemberVO memberVO) throws Exception {
+		
 		return memberDAO.selectMember(memberVO);
 	}
 	
