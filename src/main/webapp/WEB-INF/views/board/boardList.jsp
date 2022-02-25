@@ -8,6 +8,5 @@
 </head>
 <body>
 <h3> boardListÅ×½ºÆ®</h3>
-<div>fdsaf</div>
 </body>
 </html>
