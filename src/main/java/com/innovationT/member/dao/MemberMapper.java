@@ -11,4 +11,8 @@ public interface MemberMapper {
 
 	//회원검색
 	List<MemberVO> selectMember(MemberVO memberVO) throws Exception;
+	
+	//회원등록
+	void insertMember(MemberVO memberVO) throws Exception;
+	
 }

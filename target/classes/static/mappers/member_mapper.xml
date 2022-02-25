@@ -21,5 +21,9 @@
 		from member
 	</select>
 	
-	
+	<!--회원등록  -->
+	<insert id="insertMember" parameterType="com.innovationT.member.vo.MemberVO">
+		insert into member (mem_name,mem_id,mem_pw,mem_email,mem_phone)
+		values(#{memName},#{memId},#{memPw},#{memEmail},#{memPhone})
+	</insert>
 </mapper>

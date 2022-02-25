@@ -21,6 +21,14 @@ public class MemberServiceImpl implements MemberService{
 		
 		return memberDAO.selectMember(memberVO);
 	}
+
+	//등록
+	@Override
+	public void insertMember(MemberVO memberVO) throws Exception {
+
+		memberDAO.insertMember(memberVO);
+	}
+	
 	
 	
 }

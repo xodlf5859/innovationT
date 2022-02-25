@@ -11,4 +11,11 @@ public class testController {
 	public String test() throws Exception{
 		return "jsp";
 	}
+	
+	@RequestMapping("/file")
+	public String fileTest() throws Exception{
+		return "fileTest";
+	}
+	
+	
 }
